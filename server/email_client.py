@@ -11,8 +11,8 @@ IP_ADDR = "192.168.56.1"
 EMAIL = os.getenv("SMTP_EMAIL")
 PASSWORD = os.getenv("SMTP_PASSWORD")
 
-FROM = "venkatesa212004@gmail.com"
-TO = "cb.en.u4cse22454@cb.students.amrita.edu"
+FROM = ""
+TO = ""
 SUBJECT = "Test Email"
 BODY = "This is a test email sent using socket programming"
 
